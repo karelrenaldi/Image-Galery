@@ -46,5 +46,5 @@ overlayClose.addEventListener("click", () => {
 
 overlay.addEventListener('click',(e)=>{
     const isInner = e.target.closest(".overlay-inner");
-    isInner ? null : overlay.classList.remove("open");x
+    isInner ? null : overlay.classList.remove("open");
 });
